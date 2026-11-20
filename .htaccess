@@ -1,0 +1,5 @@
+RewriteRule ^$ /index.php [L]
+RewriteRule ^committees$ /committees.php [L]
+RewriteRule ^contact$ /contact.php [L]
+RewriteRule ^apply$ /apply.php [L]
+RewriteRule ^committee-detail/([0-9]+)/?$ /committee_detail.php?id=$1 [L,QSA]
